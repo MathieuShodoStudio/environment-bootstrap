@@ -1,0 +1,19 @@
+[alias]
+	st = status
+	br = branch
+	ci = commit
+	rb = rebase
+	unstage = reset HEAD --
+	un = unstage
+	alias = config --get-regex alias
+	sw = checkout
+	rs = restore
+[user]
+	email = 
+	name = 
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[merge]
+	tool = vimdiff
